@@ -26,10 +26,12 @@ Praktikum ini dirancang untuk memahami bagaimana pengambilan keputusan logika da
 
 ## 📸 Dokumentasi Praktikum
 
-*(https://github.com/ibasKs81/Praktikum-Modul1/blob/main/WhatsApp%20Image%202026-04-07%20at%2013.12.22.jpeg?raw=true)*
+*([Lampiran percobaan 1 Praktikum](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/WhatsApp%20Image%202026-04-07%20at%2013.12.22.jpeg))*
+*([Lampiran percobaan 2 Praktikum](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/WhatsApp%20Image%202026-04-07%20at%2013.12.27.jpeg))*
 
 ### 1. Skematik Rangkaian
-![Skematik Rangkaian]([Tautan Gambar Skematik Anda Di Sini](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/Screenshot%202026-04-08%20015201.png))
+!Skematik Rangkaian prcobaan 1([Tautan Gambar Skematik_1 Di Sini](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/Screenshot%202026-04-08%20015201.png))
+!Skematik Rangkaian prcobaan 2([Tautan Gambar Skematik_2 Di Sini](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/Screenshot%202026-04-08%20015551.png))
 
 ### 2. Video Hasil Percobaan 1
 [Klik di sini untuk melihat video jalannya program Praktikum_Percobaan_1](Tautan Video Percobaan 1 Anda Di Sini)
