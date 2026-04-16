@@ -13,6 +13,45 @@ Repositori ini berisi *source code*, skematik rangkaian, dan dokumentasi hasil p
 Praktikum ini dirancang untuk memahami bagaimana pengambilan keputusan logika dan perulangan memengaruhi jalannya eksekusi program perangkat keras, khususnya dalam memanipulasi pin *Output* untuk menyalakan susunan komponen LED.
 
 ---
+## 🔬 Analisis Percobaan 1
+### 1. Pada kondisi apa program masuk ke blok if? 
+Pada kondisi nilai delay sudah kurang atau saama dengan seratus 
+### 2. Pada kondisi apa program masuk ke blok else? 
+Pada kondisi nilai delay diatas 100 yang mana ketika baru menyala nilainya adalah 1000
+### 3.  Apa fungsi dari perintah delay(timeDelay)? 
+Fungsi dari delay adalah mendefinisikan waktu yang akan dipakai untuk  menyalakan dan mematikan LED
+### 4.  Berikan penjelasan disetiap baris kode nya setalah  LED tidak langsung reset → tetapi berubah dari cepat → sedang → mati
+```cpp
+const int ledPin = 6;        // Pin digital tempat LED terhubung
+int timeDelay = 1000;        // Nilai awal delay (ms)
+
+void setup() {
+  pinMode(ledPin, OUTPUT);   // Atur pin LED sebagai output
+}
+
+void loop() {
+  // Nyalakan LED
+  digitalWrite(ledPin, HIGH);
+  delay(timeDelay);
+
+  // Matikan LED
+  digitalWrite(ledPin, LOW);
+  delay(timeDelay);
+
+  // Ubah pola delay setelah 1 siklus kedip
+  if (timeDelay <= 100) { 
+    delay(3000);             // jeda 3 detik sebelum reset
+    timeDelay = 1000;        // reset ke kondisi mati (awal)
+  } 
+  else if (timeDelay <= 500) {
+    timeDelay = 700;         // dari cepat → sedang
+  } 
+  else {
+    timeDelay -= 200;        // percepatan bertahap (1000 → 800 → 600 → dst)
+  }
+}
+
+
 
 ## 📁 Penjelasan File Program
 
