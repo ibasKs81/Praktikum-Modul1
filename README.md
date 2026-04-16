@@ -54,7 +54,7 @@ void loop() {
 ---
 ## Analisa Percobaan 2
 ### 1. Gambarkan rangkaian schematic 5 LED running yang digunakan pada percobaan!
-![LED Circuit](skematikp2.png)
+![LED Circuit](skematikp2)
 ### 2. Jelaskan bagaimana program membuat efek LED berjalan dari kiri ke kanan!
 Ketika program menyalakan pin 7 maka program akan beralih ke loppingan for yang kedua dimana isinya dalah mengurangi pin output sehingga pin yang aktif adalah dari kiri ke kanan.
 ### 3.Jelaskan bagaimana program membuat LED kembali dari kanan ke kiri!
@@ -89,7 +89,7 @@ digitalWrite(ledPin, LOW);
 }
 ```
 Program tetap sama hanya saja wiringnya dijadikan 1 sehingga tetap bisa menghasilkan output yang sama berikut adalah Wiringnya
-![LED Pararel](Screenshot%2026-04-16%223410.png)
+![LED Pararel](wiringp3)
 
 
 
@@ -104,12 +104,16 @@ Program tetap sama hanya saja wiringnya dijadikan 1 sehingga tetap bisa menghasi
 ---
 
 ## 📸 Dokumentasi Praktikum
+### 1. Dokumentasi Percobaan
+Percobaan 1:
+![Lampiran percobaan 1 Praktikum](WhatsApp%20Image%202026-04-07%20at%2013.12.22.jpeg)
+Percobaan 2: 
+![Lampiran percobaan 2 Praktikum](WhatsApp%20Image%202026-04-07%20at%2013.12.27.jpeg)
 
-Percobaan 1:([Lampiran percobaan 1 Praktikum](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/WhatsApp%20Image%202026-04-07%20at%2013.12.22.jpeg))
-Percobaan 2: ([Lampiran percobaan 2 Praktikum](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/WhatsApp%20Image%202026-04-07%20at%2013.12.27.jpeg))
-
-### 1. Skematik Rangkaian
-!Skematik Rangkaian prcobaan 1([Tautan Gambar Skematik_1 Di Sini](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/Screenshot%202026-04-08%20015201.png))
-!Skematik Rangkaian prcobaan 2([Tautan Gambar Skematik_2 Di Sini](https://github.com/ibasKs81/Praktikum-Modul1/blob/main/Screenshot%202026-04-08%20015551.png))
+### 2. Skematik Rangkaian
+Skematik Rangkaian prcobaan 1
+![Skematik Rangkaian prcobaan 1](Screenshot%202026-04-08%20015201.png)
+Skematik Rangkaian prcobaan 2
+![Tautan Gambar Skematik_2 Di Sini](Screenshot%202026-04-08%20015551.png)
 
 *Laporan praktikum lengkap beserta analisis data tersedia pada direktori utama repositori ini dalam format dokumen.*
