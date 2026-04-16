@@ -53,7 +53,7 @@ void loop() {
 ---
 ## Analisa Percobaan 2
 ### 1. Gambarkan rangkaian schematic 5 LED running yang digunakan pada percobaan!
-![LED Circuit](images/Screenshot 2026-04-16 220759.png)
+![LED Circuit](Screenshot 2026-04-16 220759.png)
 ### 2. Jelaskan bagaimana program membuat efek LED berjalan dari kiri ke kanan!
 Ketika program menyalakan pin 7 maka program akan beralih ke loppingan for yang kedua dimana isinya dalah mengurangi pin output sehingga pin yang aktif adalah dari kiri ke kanan.
 ### 3.Jelaskan bagaimana program membuat LED kembali dari kanan ke kiri!
