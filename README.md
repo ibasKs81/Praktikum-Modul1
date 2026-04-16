@@ -50,6 +50,7 @@ void loop() {
     timeDelay -= 200;        // percepatan bertahap (1000 → 800 → 600 → dst)
   }
 }
+```
 ---
 ## Analisa Percobaan 2
 ### 1. Gambarkan rangkaian schematic 5 LED running yang digunakan pada percobaan!
@@ -86,6 +87,7 @@ delay(timer);
 digitalWrite(ledPin, LOW); 
 } 
 }
+```
 Program tetap sama hanya saja wiringnya dijadikan 1 sehingga tetap bisa menghasilkan output yang sama berikut adalah Wiringnya
 ![LED Pararel](Screenshot%2026-04-16%223410.png)
 
