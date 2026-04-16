@@ -87,7 +87,7 @@ digitalWrite(ledPin, LOW);
 } 
 }
 Program tetap sama hanya saja wiringnya dijadikan 1 sehingga tetap bisa menghasilkan output yang sama berikut adalah Wiringnya
-![LED Pararel](Screenshot 2026-04-16 223410.png)
+![LED Pararel](Screenshot%2026-04-16%223410.png)
 
 
 
