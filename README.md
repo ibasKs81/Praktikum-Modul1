@@ -50,6 +50,44 @@ void loop() {
     timeDelay -= 200;        // percepatan bertahap (1000 → 800 → 600 → dst)
   }
 }
+---
+## Analisa Percobaan 2
+### 1. Gambarkan rangkaian schematic 5 LED running yang digunakan pada percobaan!
+![LED Circuit](images/skematik_p2.png)
+### 2. Jelaskan bagaimana program membuat efek LED berjalan dari kiri ke kanan!
+Ketika program menyalakan pin 7 maka program akan beralih ke loppingan for yang kedua dimana isinya dalah mengurangi pin output sehingga pin yang aktif adalah dari kiri ke kanan.
+### 3.Jelaskan bagaimana program membuat LED kembali dari kanan ke kiri!
+Porogram menjalankan looping for pertama yang mengaktifkan pin 2 hingga ke 8
+### 4.Buatkan program agar LED menyala tiga LED kanan dan tiga LED kiri secara bergantian  dan berikan penjelasan disetiap baris kode nya dalam bentuk README.md!
+```cpp
+int timer = 100;           
+// delay. Semakin tinggi angkanya, semakin lambat waktunya. 
+void setup() { 
+// gunakan loop for untuk menginisialisasi setiap pin sebagai 
+output: 
+for (int ledPin = 2; ledPin < 4; ledPin++) { 
+pinMode(ledPin, OUTPUT); 
+} 
+} 
+void loop() { 
+// looping dari pin rendah ke tinggi 
+for (int ledPin = 2; ledPin < 4; ledPin++) { 
+// hidupkan LED pin nya: 
+digitalWrite(ledPin, HIGH); 
+delay(timer); 
+// matikan pin LED nya: 
+digitalWrite(ledPin, LOW); 
+}
+for (int ledPin = 3; ledPin >= 2; ledPin--) { 
+// menghidupkan pin: 
+digitalWrite(ledPin, HIGH); 
+delay(timer); 
+// mematikan pin: 
+digitalWrite(ledPin, LOW); 
+} 
+}
+Program tetap sama hanya saja wiringnya dijadikan 1 sehingga tetap bisa menghasilkan output yang sama berikut adalah Wiringnya
+![LED Pararel](images/Wiring_p3.png)
 
 
 
